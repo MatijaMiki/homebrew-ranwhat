@@ -16,7 +16,8 @@ class Ranwhat < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/ranwhat --version")
+    assert_equal version.to_s,
+                 shell_output("#{libexec}/bin/python -c 'import ranwhat; print(ranwhat.__version__)'").strip
     # The demo runs on bundled sample data and reads nothing from the machine.
     system bin/"ranwhat", "demo"
   end
