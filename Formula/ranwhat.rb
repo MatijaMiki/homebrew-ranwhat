@@ -3,8 +3,8 @@ class Ranwhat < Formula
 
   desc "Flight recorder and secret scanner for AI coding agents"
   homepage "https://ranwhat.com"
-  url "https://files.pythonhosted.org/packages/e3/60/b843dca3743ba150dc5108f313d49fa36b4afad25089e44ebc6bc07c0bdd/ranwhat-0.7.0.tar.gz"
-  sha256 "880c32ebe7887e3c50403bd4e757d335e9339ceb547e2bcf9cefb58223bb8e85"
+  url "https://files.pythonhosted.org/packages/45/1b/d394ecf583c108d157807de9fe361b55f896487b4c23c6d6b0046ea85b0f/ranwhat-0.8.0.tar.gz"
+  sha256 "a23c2323f88d9a2c1eb21e4ae2ec80d2243c25e28305cc4dc64c67236f6dffc2"
   license "MIT"
 
   depends_on "python@3.14"
